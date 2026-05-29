@@ -5,7 +5,6 @@ var volumeControl = document.querySelector(".volumebutton input");
 var playtune = function(key) {
     audio.src = `tunes/${key.dataset.note}.wav`;
     audio.play();
-
 };
 
 
